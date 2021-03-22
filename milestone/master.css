@@ -1,7 +1,68 @@
-.title h1{
-  font-size: 45px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .select {
-  padding: 20px;
+  padding: 30px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.bg {
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  font-size: 40px;
+}
+
+.light-blue {
+  color: lightblue;
+}
+
+.bg-lightblue {
+  background-color: lightblue;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+}
+
+.title h1 {
+  padding-left: 10px;
+  padding-bottom: 2px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  background-color: #ffff;
+  padding: 15px;
+}
+
+
+.col-12 {
+  width: 100%;
+}
+
+.icone {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icons {
+  margin: 20px 50px;
+  width: 200px;
+  height: 80px;
+  background-color: #eeee;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -99,7 +99,15 @@ $(document).ready(function() {
 	];
 
 	icone.forEach((item) => {
-		$('.icone').append(`<div> <i class="${item.family} ${item.prefix}${item.name}"></i></div>`);
+		if (item.type == 'user') {
+			$('.icone').append(`<div class="icons"> <i style="color: blue" class="${item.family} ${item.prefix}${item.name}"></i><div class="name">${item.name}</div></div>`)
+		} else if (item.type == 'vegetable') {
+			$('.icone').append(`<div class="icons"> <i style="color: yellow" class="${item.family} ${item.prefix}${item.name}"></i><div class="name">${item.name}</div></div>`)
+		} else {
+						$('.icone').append(`<div class="icons"> <i style="color: purple" class="${item.family} ${item.prefix}${item.name}"></i><div class="name">${item.name}</div></div>`)
+		}
 	});
+
+
 
 });
