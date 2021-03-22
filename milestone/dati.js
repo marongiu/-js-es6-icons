@@ -98,6 +98,7 @@ $(document).ready(function() {
 		}
 	];
 
+// ciclo con il for each e con un if assegno il colore in base al tipo
 	icone.forEach((item) => {
 		if (item.type == 'user') {
 			$('.icone').append(`<div class="icons"> <i style="color: purple" class="${item.family} ${item.prefix}${item.name}"></i><div class="name">${item.name}</div></div>`)

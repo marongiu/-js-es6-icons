@@ -18,15 +18,15 @@
 }
 
 i {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .light-blue {
-  color: #6bb6ff;
+  color: #29b1dd;
 }
 
 .bg-lightblue {
-  background-color: #6bb6ff;
+  background-color: #29b1dd;
 }
 
 .select {
@@ -40,7 +40,8 @@ i {
   font-size: 45px;
 }
 
-h5 {
+h2 {
+  color: #ffff;
   padding: 0 10px;
 }
 
@@ -55,18 +56,18 @@ h5 {
 }
 
 .icons {
-  padding: 10px 0;
+  padding: 15px 0;
   margin: 20px 50px;
   width: 200px;
   height: 80px;
   background-color: #ffff;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px 1px lightgrey;
+  box-shadow: 1px 1px 1px 1px grey;
 }
 
 
 .special {
-  background-color: #eeee;
+  background-color: #dddddd;
   padding-bottom: 50px;
 }
 
