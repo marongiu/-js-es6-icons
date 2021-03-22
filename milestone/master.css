@@ -57,12 +57,13 @@ i {
 }
 
 .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 20px 50px;
   width: 200px;
   height: 80px;
   background-color: #eeee;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  box-shadow: 1px 1px 1px 1px black;
 }
