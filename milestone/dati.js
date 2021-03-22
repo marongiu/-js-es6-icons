@@ -99,7 +99,7 @@ $(document).ready(function() {
 	];
 
 	icone.forEach((item) => {
-		$('.icone').append(`<i class="${item.family} ${item.prefix}${item.name}"></i>`);
+		$('.icone').append(`<div> <i class="${item.family} ${item.prefix}${item.name}"></i></div>`);
 	});
 
 });
